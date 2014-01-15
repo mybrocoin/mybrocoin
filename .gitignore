@@ -2,6 +2,7 @@ src/*.exe
 src/mariobroscoin
 src/mariobroscoind
 src/test_mariobroscoin
+obj/
 .*.swp
 *.*~*
 *.bak
@@ -9,6 +10,7 @@ src/test_mariobroscoin
 *.orig
 *.o
 *.patch
+*.exe
 .MarioBrosCoin
 
 # Compilation and Qt preprocessor part
