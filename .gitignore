@@ -1,0 +1,44 @@
+src/*.exe
+src/mariobroscoin
+src/mariobroscoind
+src/test_mariobroscoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.MarioBrosCoin
+
+# Compilation and Qt preprocessor part
+*.qm
+
+mariobroscoin-qt
+Mariobroscoin-Qt.app
+
+# Unit-tests
+
+mariobroscoin-qt_test
+
+# Resources cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+
+*.o
+*.exe
+
+[Tt]humbs.db
+*.DS_Store
+obj/
+[Bb]uild/
+.svn
+~$*
+[Cc]ontrib/
+[Dd]ebug/
