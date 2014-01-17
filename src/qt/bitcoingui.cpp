@@ -185,7 +185,7 @@ void BitcoinGUI::createActions()
     miningAction->setToolTip(tr("Configure mining"));
     miningAction->setCheckable(true);
     tabGroup->addAction(miningAction);
-
+    
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
     sendCoinsAction->setStatusTip(tr("Send coins to a MarioBrosCoin address"));

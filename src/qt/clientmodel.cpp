@@ -20,11 +20,28 @@ static const int64 nClientStartupTime = GetTime();
 ClientModel::ClientModel(OptionsModel *optionsModel, QObject *parent) :
     QObject(parent), optionsModel(optionsModel),
     cachedNumBlocks(0), cachedNumBlocksOfPeers(0),
-    cachedReindexing(0), cachedImporting(0),
-    numBlocksAtStartup(-1), pollTimer(0)
+    cachedHashrate(0), cachedReindexing(0),  
+    cachedImporting(0), numBlocksAtStartup(-1), pollTimer(0)
 {
 
+    // Read our specific settings from the wallet db
+    /*
+    CWalletDB walletdb(optionsModel->getWallet()->strWalletFile);
+    walletdb.ReadSetting("miningDebug", miningDebug);
+    walletdb.ReadSetting("miningScanTime", miningScanTime);
+    std::string str;
+    walletdb.ReadSetting("miningServer", str);
+    miningServer = QString::fromStdString(str);
+    walletdb.ReadSetting("miningPort", str);
+    miningPort = QString::fromStdString(str);
+    walletdb.ReadSetting("miningUsername", str);
+    miningUsername = QString::fromStdString(str);
+    walletdb.ReadSetting("miningPassword", str);
+    miningPassword = QString::fromStdString(str);
+    */
+    
     pollTimer = new QTimer(this);
+    numBlocksAtStartup = -1;
 
     miningType = SoloMining;
     miningStarted = true;
@@ -79,12 +96,7 @@ bool ClientModel::getMiningDebug() const
 
 void ClientModel::setMiningDebug(bool debug)
 {
-      if(debug == true) {
-        QMessageBox::information(NULL, "Debug", "Yeah");
-      } else {
-        QMessageBox::information(NULL, "Debug", "No");
-      }
-      miningDebug = debug;
+//      miningDebug = debug;
     
 //    WriteSetting("miningDebug", miningDebug);
 }
@@ -212,6 +224,15 @@ void ClientModel::updateTimer()
 
         // ensure we return the maximum of newNumBlocksOfPeers and newNumBlocks to not create weird displays in the GUI
         emit numBlocksChanged(newNumBlocks, std::max(newNumBlocksOfPeers, newNumBlocks));
+    
+        if (miningType == SoloMining)
+        {
+            int newHashrate = getHashrate();
+            if (cachedHashrate != newHashrate)
+                emit miningChanged(miningStarted, newHashrate);
+            cachedHashrate = newHashrate;
+        }
+    
     }
 }
 
@@ -235,6 +256,8 @@ void ClientModel::updateAlert(const QString &hash, int status)
     }
 
     emit alertsChanged(getStatusBarWarnings());
+    //emit numBlocksChanged(getNumBlocks(), getNumBlocksOfPeers());
+        
 }
 
 bool ClientModel::isTestNet() const

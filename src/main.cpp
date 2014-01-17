@@ -1071,8 +1071,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 24 * 60 * 60; // MarioBrosCoin: 3.5 days
-static const int64 nTargetSpacing = 120; // MarioBrosCoin: 2.5 minutes
+static const int64 nTargetTimespan = 24 * 60 * 60; // MarioBrosCoin: 1 days
+static const int64 nTargetSpacing = 120; // MarioBrosCoin: 2 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
