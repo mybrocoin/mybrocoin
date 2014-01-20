@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About MarioBrosCoin</source>
-        <translation>Sobre o MarioBrosCoin</translation>
+        <source>About MyBroCoin</source>
+        <translation>Sobre o MyBroCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;MarioBrosCoin&lt;/b&gt; version</source>
-        <translation>Versão do &lt;b&gt;MarioBrosCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;MyBroCoin&lt;/b&gt; version</source>
+        <translation>Versão do &lt;b&gt;MyBroCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The MarioBrosCoin developers</source>
-        <translation>Desenvolvedores do MarioBrosCoin</translation>
+        <source>The MyBroCoin developers</source>
+        <translation>Desenvolvedores do MyBroCoin</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your MarioBrosCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estes são os seus endereços MarioBrosCoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
+        <source>These are your MyBroCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estes são os seus endereços MyBroCoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a MarioBrosCoin address</source>
-        <translation>Assine uma mensagem para provar que você é dono de um endereço MarioBrosCoin</translation>
+        <source>Sign a message to prove you own a MyBroCoin address</source>
+        <translation>Assine uma mensagem para provar que você é dono de um endereço MyBroCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified MarioBrosCoin address</source>
-        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço MarioBrosCoin específico.</translation>
+        <source>Verify a message to ensure it was signed with a specified MyBroCoin address</source>
+        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço MyBroCoin específico.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your MarioBrosCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços MarioBrosCoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
+        <source>These are your MyBroCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços MyBroCoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>MarioBrosCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mariobroscoins from being stolen by malware infecting your computer.</source>
-        <translation>O MarioBrosCoin irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas mariobroscoins de serem roubadas por malwares que tenham infectado o seu computador.</translation>
+        <source>MyBroCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mariobroscoins from being stolen by malware infecting your computer.</source>
+        <translation>O MyBroCoin irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas mariobroscoins de serem roubadas por malwares que tenham infectado o seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about MarioBrosCoin</source>
-        <translation>Mostrar informação sobre MarioBrosCoin</translation>
+        <source>Show information about MyBroCoin</source>
+        <translation>Mostrar informação sobre MyBroCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,12 +419,12 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a MarioBrosCoin address</source>
+        <source>Send coins to a MyBroCoin address</source>
         <translation>Enviar moedas para um endereço mariobroscoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for MarioBrosCoin</source>
+        <source>Modify configuration options for MyBroCoin</source>
         <translation>Modificar opções de configuração para mariobroscoin</translation>
     </message>
     <message>
@@ -455,8 +455,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>MarioBrosCoin</source>
-        <translation>MarioBrosCoin</translation>
+        <source>MyBroCoin</source>
+        <translation>MyBroCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About MarioBrosCoin</source>
-        <translation>&amp;Sobre o MarioBrosCoin</translation>
+        <source>&amp;About MyBroCoin</source>
+        <translation>&amp;Sobre o MyBroCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your MarioBrosCoin addresses to prove you own them</source>
-        <translation>Assine mensagems com seus endereços MarioBrosCoin para provar que você é dono deles</translation>
+        <source>Sign messages with your MyBroCoin addresses to prove you own them</source>
+        <translation>Assine mensagems com seus endereços MyBroCoin para provar que você é dono deles</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified MarioBrosCoin addresses</source>
-        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços MarioBrosCoin específicos</translation>
+        <source>Verify messages to ensure they were signed with specified MyBroCoin addresses</source>
+        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços MyBroCoin específicos</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>MarioBrosCoin client</source>
-        <translation>Cliente MarioBrosCoin</translation>
+        <source>MyBroCoin client</source>
+        <translation>Cliente MyBroCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to MarioBrosCoin network</source>
-        <translation><numerusform>%n conexão ativa na rede MarioBrosCoin</numerusform><numerusform>%n conexões ativas na rede MarioBrosCoin</numerusform></translation>
+        <source>%n active connection(s) to MyBroCoin network</source>
+        <translation><numerusform>%n conexão ativa na rede MyBroCoin</numerusform><numerusform>%n conexões ativas na rede MyBroCoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Endereço: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid MarioBrosCoin address or malformed URI parameters.</source>
-        <translation>URI não pode ser decodificado! Isso pode ter sido causado por um endereço MarioBrosCoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid MyBroCoin address or malformed URI parameters.</source>
+        <translation>URI não pode ser decodificado! Isso pode ter sido causado por um endereço MyBroCoin inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. MarioBrosCoin can no longer continue safely and will quit.</source>
-        <translation>Um erro fatal ocorreu. MarioBrosCoin não pode continuar em segurança e irá fechar.</translation>
+        <source>A fatal error occurred. MyBroCoin can no longer continue safely and will quit.</source>
+        <translation>Um erro fatal ocorreu. MyBroCoin não pode continuar em segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid MarioBrosCoin address.</source>
-        <translation>O endereço digitado &quot;%1&quot; não é um endereço MarioBrosCoin válido.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid MyBroCoin address.</source>
+        <translation>O endereço digitado &quot;%1&quot; não é um endereço MyBroCoin válido.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Endereço: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>MarioBrosCoin-Qt</source>
-        <translation>MarioBrosCoin-Qt</translation>
+        <source>MyBroCoin-Qt</source>
+        <translation>MyBroCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start MarioBrosCoin after logging in to the system.</source>
-        <translation>Iniciar MarioBrosCoin automaticamente após se logar no sistema.</translation>
+        <source>Automatically start MyBroCoin after logging in to the system.</source>
+        <translation>Iniciar MyBroCoin automaticamente após se logar no sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MarioBrosCoin on system login</source>
-        <translation>Iniciar MarioBrosCoin no login do sistema</translation>
+        <source>&amp;Start MyBroCoin on system login</source>
+        <translation>Iniciar MyBroCoin no login do sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the MarioBrosCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir as portas do cliente MarioBrosCoin automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
+        <source>Automatically open the MyBroCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir as portas do cliente MyBroCoin automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the MarioBrosCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectar à rede MarioBrosCoin através de um proxy SOCKS (ex. quando estiver usando através do Tor)</translation>
+        <source>Connect to the MyBroCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conectar à rede MyBroCoin através de um proxy SOCKS (ex. quando estiver usando através do Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MarioBrosCoin.</source>
-        <translation>A língua da interface com usuário pode ser escolhida aqui. Esta configuração só surtirá efeito após reiniciar o MarioBrosCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting MyBroCoin.</source>
+        <translation>A língua da interface com usuário pode ser escolhida aqui. Esta configuração só surtirá efeito após reiniciar o MyBroCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show MarioBrosCoin addresses in the transaction list or not.</source>
-        <translation>Mostrar ou não endereços MarioBrosCoin na lista de transações.</translation>
+        <source>Whether to show MyBroCoin addresses in the transaction list or not.</source>
+        <translation>Mostrar ou não endereços MyBroCoin na lista de transações.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Endereço: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting MarioBrosCoin.</source>
-        <translation>Esta configuração surtirá efeito após reinicializar o aplicativo MarioBrosCoin</translation>
+        <source>This setting will take effect after restarting MyBroCoin.</source>
+        <translation>Esta configuração surtirá efeito após reinicializar o aplicativo MyBroCoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,8 +1014,8 @@ Endereço: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MarioBrosCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede MarioBrosCoin depois que a conexão é estabelecida, mas este processo pode não estar completo ainda.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MyBroCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede MyBroCoin depois que a conexão é estabelecida, mas este processo pode não estar completo ainda.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1218,8 +1218,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the MarioBrosCoin-Qt help message to get a list with possible MarioBrosCoin command-line options.</source>
-        <translation>Mostrar mensagem de ajuda do MarioBrosCoin-Qt para obter uma lista com possíveis opções da linha de comando do MarioBrosCoin.</translation>
+        <source>Show the MyBroCoin-Qt help message to get a list with possible MyBroCoin command-line options.</source>
+        <translation>Mostrar mensagem de ajuda do MyBroCoin-Qt para obter uma lista com possíveis opções da linha de comando do MyBroCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>MarioBrosCoin - Debug window</source>
-        <translation>MarioBrosCoin - Janela de Depuração</translation>
+        <source>MyBroCoin - Debug window</source>
+        <translation>MyBroCoin - Janela de Depuração</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>MarioBrosCoin Core</source>
-        <translation>Núcleo MarioBrosCoin</translation>
+        <source>MyBroCoin Core</source>
+        <translation>Núcleo MyBroCoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the MarioBrosCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir o arquivo de log de depuração do MarioBrosCoin do diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
+        <source>Open the MyBroCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o arquivo de log de depuração do MyBroCoin do diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the MarioBrosCoin RPC console.</source>
-        <translation>Bem-vindo ao console MarioBrosCoin RPC.</translation>
+        <source>Welcome to the MyBroCoin RPC console.</source>
+        <translation>Bem-vindo ao console MyBroCoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1447,8 +1447,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MarioBrosCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Digite um endereço MarioBrosCoin (exemplo: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MyBroCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Digite um endereço MyBroCoin (exemplo: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this MarioBrosCoin address</source>
-        <translation>Assinar mensagem para provar que você é dono deste endereço MarioBrosCoin</translation>
+        <source>Sign the message to prove you own this MyBroCoin address</source>
+        <translation>Assinar mensagem para provar que você é dono deste endereço MyBroCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified MarioBrosCoin address</source>
-        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço MarioBrosCoin específico.</translation>
+        <source>Verify the message to ensure it was signed with the specified MyBroCoin address</source>
+        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço MyBroCoin específico.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Endereço: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MarioBrosCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Digite um endereço MarioBrosCoin (exemplo: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MyBroCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Digite um endereço MyBroCoin (exemplo: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter MarioBrosCoin signature</source>
-        <translation>Entre com a assinatura MarioBrosCoin</translation>
+        <source>Enter MyBroCoin signature</source>
+        <translation>Entre com a assinatura MyBroCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1648,8 +1648,8 @@ Endereço: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The MarioBrosCoin developers</source>
-        <translation>Desenvolvedores do MarioBrosCoin</translation>
+        <source>The MyBroCoin developers</source>
+        <translation>Desenvolvedores do MyBroCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1783,7 +1783,7 @@ Endereço: %4</translation>
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>MarioBrosCoins gerados precisam maturar por 120 blocos antes de serem gastos. Quando você gera este bloco, ele é difundido na rede para ser adicionado ao blockchain. Se ele falhar ao ser acrescentado no blockchain, seu estado mudará para &quot;não aceito&quot; e não poderá ser gasto. Isso pode ocasionamente acontecer se outro nó gerou um bloco poucos segundos antes do seu.</translation>
+        <translation>MyBroCoins gerados precisam maturar por 120 blocos antes de serem gastos. Quando você gera este bloco, ele é difundido na rede para ser adicionado ao blockchain. Se ele falhar ao ser acrescentado no blockchain, seu estado mudará para &quot;não aceito&quot; e não poderá ser gasto. Isso pode ocasionamente acontecer se outro nó gerou um bloco poucos segundos antes do seu.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2186,8 +2186,8 @@ Endereço: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>MarioBrosCoin version</source>
-        <translation>Versão do MarioBrosCoin</translation>
+        <source>MyBroCoin version</source>
+        <translation>Versão do MyBroCoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2305,7 +2305,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;MyBroCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, você deve especificar uma senha rpcpassword no arquivo de configuração:⏎
 %s⏎
@@ -2316,7 +2316,7 @@ rpcpassword=%s⏎
 O nome de usuário e a senha NÃO PODEM ser os mesmos.⏎
 Se o arquivo não existir, crie um com permissão de leitura apenas para o dono.⏎
 É recomendado também definir um alertnotify para que você seja notificado de problemas;⏎
-por exemplo: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admin@foo.com⏎
+por exemplo: alertnotify=echo %%s | mail -s &quot;MyBroCoin Alert&quot; admin@foo.com⏎
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admi
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. MarioBrosCoin is probably already running.</source>
-        <translation>Não foi possível obter exclusividade de escrita no endereço %s. O MarioBrosCoin provavelmente já está rodando.</translation>
+        <source>Cannot obtain a lock on data directory %s. MyBroCoin is probably already running.</source>
+        <translation>Não foi possível obter exclusividade de escrita no endereço %s. O MyBroCoin provavelmente já está rodando.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admi
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MarioBrosCoin will not work properly.</source>
-        <translation>Cuidado: Por favor, verifique que a data e hora do seu computador estão corretas! If o seu relógio estiver errado, o MarioBrosCoin não irá funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MyBroCoin will not work properly.</source>
+        <translation>Cuidado: Por favor, verifique que a data e hora do seu computador estão corretas! If o seu relógio estiver errado, o MyBroCoin não irá funcionar corretamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admi
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the MarioBrosCoin Wiki for SSL setup instructions)</source>
-        <translation>Opções SSL: (veja a Wiki do MarioBrosCoin para instruções de configuração SSL)</translation>
+        <source>SSL options: (see the MyBroCoin Wiki for SSL setup instructions)</source>
+        <translation>Opções SSL: (veja a Wiki do MyBroCoin para instruções de configuração SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admi
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of MarioBrosCoin</source>
-        <translation>Erro ao carregar wallet.dat: Carteira requer uma versão mais nova do MarioBrosCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of MyBroCoin</source>
+        <translation>Erro ao carregar wallet.dat: Carteira requer uma versão mais nova do MyBroCoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart MarioBrosCoin to complete</source>
-        <translation>A Carteira precisou ser reescrita: reinicie o MarioBrosCoin para completar</translation>
+        <source>Wallet needed to be rewritten: restart MyBroCoin to complete</source>
+        <translation>A Carteira precisou ser reescrita: reinicie o MyBroCoin para completar</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admi
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. MarioBrosCoin is probably already running.</source>
-        <translation>Impossível vincular a %s neste computador. O MarioBrosCoin provavelmente já está rodando.</translation>
+        <source>Unable to bind to %s on this computer. MyBroCoin is probably already running.</source>
+        <translation>Impossível vincular a %s neste computador. O MyBroCoin provavelmente já está rodando.</translation>
     </message>
     <message>
         <location line="+64"/>

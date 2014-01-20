@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About MarioBrosCoin</source>
-        <translation>Par MarioBrosCoin</translation>
+        <source>About MyBroCoin</source>
+        <translation>Par MyBroCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;MarioBrosCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;MarioBrosCoin&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;MyBroCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;MyBroCoin&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The MarioBrosCoin developers</source>
+        <source>The MyBroCoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,7 +62,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your MarioBrosCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your MyBroCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a MarioBrosCoin address</source>
+        <source>Sign a message to prove you own a MyBroCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified MarioBrosCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified MyBroCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your MarioBrosCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your MyBroCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>MarioBrosCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mariobroscoins from being stolen by malware infecting your computer.</source>
-        <translation>MarioBrosCoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
+        <source>MyBroCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mariobroscoins from being stolen by malware infecting your computer.</source>
+        <translation>MyBroCoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about MarioBrosCoin</source>
-        <translation>Parādīt informāciju par MarioBrosCoin</translation>
+        <source>Show information about MyBroCoin</source>
+        <translation>Parādīt informāciju par MyBroCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a MarioBrosCoin address</source>
-        <translation>Nosūtīt bitkoinus uz MarioBrosCoin adresi</translation>
+        <source>Send coins to a MyBroCoin address</source>
+        <translation>Nosūtīt bitkoinus uz MyBroCoin adresi</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for MarioBrosCoin</source>
-        <translation>Mainīt MarioBrosCoin konfigurācijas uzstādījumus</translation>
+        <source>Modify configuration options for MyBroCoin</source>
+        <translation>Mainīt MyBroCoin konfigurācijas uzstādījumus</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,7 +450,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>MarioBrosCoin</source>
+        <source>MyBroCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -475,7 +475,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About MarioBrosCoin</source>
+        <source>&amp;About MyBroCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your MarioBrosCoin addresses to prove you own them</source>
+        <source>Sign messages with your MyBroCoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified MarioBrosCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified MyBroCoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>MarioBrosCoin client</source>
-        <translation>MarioBrosCoin klients</translation>
+        <source>MyBroCoin client</source>
+        <translation>MyBroCoin klients</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to MarioBrosCoin network</source>
-        <translation><numerusform>%n aktīvu savienojumu ar MarioBrosCoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar MarioBrosCoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as MarioBrosCoin tīklu</numerusform></translation>
+        <source>%n active connection(s) to MyBroCoin network</source>
+        <translation><numerusform>%n aktīvu savienojumu ar MyBroCoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar MyBroCoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as MyBroCoin tīklu</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -651,7 +651,7 @@ Adrese: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid MarioBrosCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid MyBroCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -666,7 +666,7 @@ Adrese: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. MarioBrosCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. MyBroCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -732,8 +732,8 @@ Adrese: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid MarioBrosCoin address.</source>
-        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga MarioBrosCoin adrese.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid MyBroCoin address.</source>
+        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga MyBroCoin adrese.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -751,8 +751,8 @@ Adrese: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>MarioBrosCoin-Qt</source>
-        <translation>MarioBrosCoin-Qt</translation>
+        <source>MyBroCoin-Qt</source>
+        <translation>MyBroCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -814,13 +814,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start MarioBrosCoin after logging in to the system.</source>
-        <translation>Automātiski sākt MarioBrosCoin pēc pieteikšanās sistēmā.</translation>
+        <source>Automatically start MyBroCoin after logging in to the system.</source>
+        <translation>Automātiski sākt MyBroCoin pēc pieteikšanās sistēmā.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MarioBrosCoin on system login</source>
-        <translation>&amp;Sākt MarioBrosCoin reizē ar sistēmu</translation>
+        <source>&amp;Start MyBroCoin on system login</source>
+        <translation>&amp;Sākt MyBroCoin reizē ar sistēmu</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -839,8 +839,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the MarioBrosCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt MarioBrosCoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the MyBroCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt MyBroCoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -849,7 +849,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the MarioBrosCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the MyBroCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -924,8 +924,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MarioBrosCoin.</source>
-        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc MarioBrosCoin pārstartēšanas.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting MyBroCoin.</source>
+        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc MyBroCoin pārstartēšanas.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -939,8 +939,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show MarioBrosCoin addresses in the transaction list or not.</source>
-        <translation>Rādīt vai nē MarioBrosCoin adreses transakciju sarakstā.</translation>
+        <source>Whether to show MyBroCoin addresses in the transaction list or not.</source>
+        <translation>Rādīt vai nē MyBroCoin adreses transakciju sarakstā.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -991,7 +991,7 @@ Adrese: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting MarioBrosCoin.</source>
+        <source>This setting will take effect after restarting MyBroCoin.</source>
         <translation>Iestatījums aktivizēsies pēc Bitkoin pārstartēšanas.</translation>
     </message>
     <message>
@@ -1010,8 +1010,8 @@ Adrese: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MarioBrosCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar MarioBrosCoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MyBroCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar MyBroCoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1214,7 +1214,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the MarioBrosCoin-Qt help message to get a list with possible MarioBrosCoin command-line options.</source>
+        <source>Show the MyBroCoin-Qt help message to get a list with possible MyBroCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1234,12 +1234,12 @@ Adrese: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>MarioBrosCoin - Debug window</source>
+        <source>MyBroCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>MarioBrosCoin Core</source>
+        <source>MyBroCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1249,7 +1249,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the MarioBrosCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the MyBroCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1259,8 +1259,8 @@ Adrese: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the MarioBrosCoin RPC console.</source>
-        <translation>Laipni lūgti MarioBrosCoin RPC konsolē.</translation>
+        <source>Welcome to the MyBroCoin RPC console.</source>
+        <translation>Laipni lūgti MyBroCoin RPC konsolē.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1443,8 +1443,8 @@ Adrese: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MarioBrosCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ierakstiet MarioBrosCoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MyBroCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ierakstiet MyBroCoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1508,7 +1508,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this MarioBrosCoin address</source>
+        <source>Sign the message to prove you own this MyBroCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1544,7 +1544,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified MarioBrosCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified MyBroCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1560,8 +1560,8 @@ Adrese: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MarioBrosCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ierakstiet MarioBrosCoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MyBroCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ierakstiet MyBroCoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1570,7 +1570,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter MarioBrosCoin signature</source>
+        <source>Enter MyBroCoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1644,7 +1644,7 @@ Adrese: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The MarioBrosCoin developers</source>
+        <source>The MyBroCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2182,8 +2182,8 @@ Adrese: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>MarioBrosCoin version</source>
-        <translation>MarioBrosCoin versija</translation>
+        <source>MyBroCoin version</source>
+        <translation>MyBroCoin versija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2301,7 +2301,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;MyBroCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2317,7 +2317,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admi
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. MarioBrosCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. MyBroCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2362,7 +2362,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admi
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MarioBrosCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MyBroCoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2612,7 +2612,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admi
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the MarioBrosCoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the MyBroCoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2802,13 +2802,13 @@ for example: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admi
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of MarioBrosCoin</source>
-        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka MarioBrosCoin versija</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of MyBroCoin</source>
+        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka MyBroCoin versija</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart MarioBrosCoin to complete</source>
-        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet MarioBrosCoin</translation>
+        <source>Wallet needed to be rewritten: restart MyBroCoin to complete</source>
+        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet MyBroCoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2867,8 +2867,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admi
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. MarioBrosCoin is probably already running.</source>
-        <translation>Nevar pievienoties %s uz šī datora. MarioBrosCoin droši vien jau darbojas.</translation>
+        <source>Unable to bind to %s on this computer. MyBroCoin is probably already running.</source>
+        <translation>Nevar pievienoties %s uz šī datora. MyBroCoin droši vien jau darbojas.</translation>
     </message>
     <message>
         <location line="+64"/>

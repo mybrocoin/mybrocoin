@@ -45,7 +45,7 @@ LIBPATHS?= \
  -L"/c/deps/boost/stage/lib" \
  -L"/c/deps/db/build_unix" \
  -L"/c/deps/ssl" \
- -L"/c/MarioBrosCoin/src/leveldb" \
+ -L"/c/MyBroCoin/src/leveldb" \
  -L"$(CURDIR)/leveldb" \
  -L"$(DEPSDIR)/lib" 
 

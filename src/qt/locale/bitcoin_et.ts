@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About MarioBrosCoin</source>
-        <translation>MarioBrosCoinist</translation>
+        <source>About MyBroCoin</source>
+        <translation>MyBroCoinist</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;MarioBrosCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;MarioBrosCoini&lt;/b&gt; versioon</translation>
+        <source>&lt;b&gt;MyBroCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;MyBroCoini&lt;/b&gt; versioon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The MarioBrosCoin developers</source>
+        <source>The MyBroCoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -67,8 +67,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your MarioBrosCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Maksete saamiseks kasutatavad MarioBrosCoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
+        <source>These are your MyBroCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Maksete saamiseks kasutatavad MyBroCoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,7 +82,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a MarioBrosCoin address</source>
+        <source>Sign a message to prove you own a MyBroCoin address</source>
         <translation>Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified MarioBrosCoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud MarioBrosCoini aadressiga.</translation>
+        <source>Verify a message to ensure it was signed with a specified MyBroCoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud MyBroCoini aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your MarioBrosCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu MarioBrosCoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your MyBroCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu MyBroCoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>MarioBrosCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mariobroscoins from being stolen by malware infecting your computer.</source>
-        <translation>MarioBrosCoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista mariobroscoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>MyBroCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mariobroscoins from being stolen by malware infecting your computer.</source>
+        <translation>MyBroCoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista mariobroscoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about MarioBrosCoin</source>
-        <translation>Kuva info MarioBrosCoini kohta</translation>
+        <source>Show information about MyBroCoin</source>
+        <translation>Kuva info MyBroCoini kohta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a MarioBrosCoin address</source>
-        <translation>Saada münte MarioBrosCoini aadressile</translation>
+        <source>Send coins to a MyBroCoin address</source>
+        <translation>Saada münte MyBroCoini aadressile</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for MarioBrosCoin</source>
-        <translation>Muuda MarioBrosCoini seadeid</translation>
+        <source>Modify configuration options for MyBroCoin</source>
+        <translation>Muuda MyBroCoini seadeid</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>MarioBrosCoin</source>
-        <translation>MarioBrosCoin</translation>
+        <source>MyBroCoin</source>
+        <translation>MyBroCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About MarioBrosCoin</source>
-        <translation>%MarioBrosCoinist</translation>
+        <source>&amp;About MyBroCoin</source>
+        <translation>%MyBroCoinist</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your MarioBrosCoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma MarioBrosCoini aadressiga</translation>
+        <source>Sign messages with your MyBroCoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma MyBroCoini aadressiga</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified MarioBrosCoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud MarioBrosCoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified MyBroCoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud MyBroCoini aadressiga</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>MarioBrosCoin client</source>
-        <translation>MarioBrosCoini klient</translation>
+        <source>MyBroCoin client</source>
+        <translation>MyBroCoini klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to MarioBrosCoin network</source>
-        <translation><numerusform>%n aktiivne ühendus MarioBrosCoini võrku</numerusform><numerusform>%n aktiivset ühendust MarioBrosCoini võrku</numerusform></translation>
+        <source>%n active connection(s) to MyBroCoin network</source>
+        <translation><numerusform>%n aktiivne ühendus MyBroCoini võrku</numerusform><numerusform>%n aktiivset ühendust MyBroCoini võrku</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid MarioBrosCoin address or malformed URI parameters.</source>
-        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu MarioBrosCoini aadress või vigased URI parameetrid.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid MyBroCoin address or malformed URI parameters.</source>
+        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu MyBroCoini aadress või vigased URI parameetrid.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. MarioBrosCoin can no longer continue safely and will quit.</source>
-        <translation>Ilmnes kriitiline tõrge. MarioBrosCoin suletakse turvakaalutluste tõttu.</translation>
+        <source>A fatal error occurred. MyBroCoin can no longer continue safely and will quit.</source>
+        <translation>Ilmnes kriitiline tõrge. MyBroCoin suletakse turvakaalutluste tõttu.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid MarioBrosCoin address.</source>
-        <translation>Sisestatud aadress &quot;%1&quot; ei ole MarioBrosCoinis kehtiv.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid MyBroCoin address.</source>
+        <translation>Sisestatud aadress &quot;%1&quot; ei ole MyBroCoinis kehtiv.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>MarioBrosCoin-Qt</source>
-        <translation>MarioBrosCoini-Qt</translation>
+        <source>MyBroCoin-Qt</source>
+        <translation>MyBroCoini-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start MarioBrosCoin after logging in to the system.</source>
-        <translation>Käivita MarioBrosCoin süsteemi logimisel.</translation>
+        <source>Automatically start MyBroCoin after logging in to the system.</source>
+        <translation>Käivita MyBroCoin süsteemi logimisel.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MarioBrosCoin on system login</source>
-        <translation>&amp;Start MarioBrosCoin sisselogimisel</translation>
+        <source>&amp;Start MyBroCoin on system login</source>
+        <translation>&amp;Start MyBroCoin sisselogimisel</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the MarioBrosCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>MarioBrosCoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the MyBroCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>MyBroCoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the MarioBrosCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Kasuta MarioBrosCoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
+        <source>Connect to the MyBroCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Kasuta MyBroCoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MarioBrosCoin.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub MarioBrosCoini käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting MyBroCoin.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub MyBroCoini käivitamisel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show MarioBrosCoin addresses in the transaction list or not.</source>
-        <translation>Kuvada MarioBrosCoini aadress tehingute loetelus või mitte.</translation>
+        <source>Whether to show MyBroCoin addresses in the transaction list or not.</source>
+        <translation>Kuvada MyBroCoini aadress tehingute loetelus või mitte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting MarioBrosCoin.</source>
-        <translation>Tehtud valik rakendub MarioBrosCoini käivitamisel.</translation>
+        <source>This setting will take effect after restarting MyBroCoin.</source>
+        <translation>Tehtud valik rakendub MyBroCoini käivitamisel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,7 +1014,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MarioBrosCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MyBroCoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1069,7 +1069,7 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start mariobroscoin: click-to-pay handler</source>
-        <translation>MarioBrosCoin ei käivitu: vajuta-maksa toiming</translation>
+        <translation>MyBroCoin ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the MarioBrosCoin-Qt help message to get a list with possible MarioBrosCoin command-line options.</source>
-        <translation>Näita kehtivate käsurea valikute kuvamiseks MarioBrosCoini-Qt abiteksti</translation>
+        <source>Show the MyBroCoin-Qt help message to get a list with possible MyBroCoin command-line options.</source>
+        <translation>Näita kehtivate käsurea valikute kuvamiseks MyBroCoini-Qt abiteksti</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>MarioBrosCoin - Debug window</source>
-        <translation>MarioBrosCoin - debugimise aken</translation>
+        <source>MyBroCoin - Debug window</source>
+        <translation>MyBroCoin - debugimise aken</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>MarioBrosCoin Core</source>
-        <translation>MarioBrosCoini tuumik</translation>
+        <source>MyBroCoin Core</source>
+        <translation>MyBroCoini tuumik</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the MarioBrosCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava MarioBrosCoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the MyBroCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava MyBroCoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the MarioBrosCoin RPC console.</source>
-        <translation>Teretulemast MarioBrosCoini RPC konsooli.</translation>
+        <source>Welcome to the MyBroCoin RPC console.</source>
+        <translation>Teretulemast MyBroCoini RPC konsooli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1447,8 +1447,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MarioBrosCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta MarioBrosCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MyBroCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta MyBroCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this MarioBrosCoin address</source>
-        <translation>Allkirjasta sõnum MarioBrosCoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this MyBroCoin address</source>
+        <translation>Allkirjasta sõnum MyBroCoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified MarioBrosCoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud MarioBrosCoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified MyBroCoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud MyBroCoini aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MarioBrosCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta MarioBrosCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MyBroCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta MyBroCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter MarioBrosCoin signature</source>
-        <translation>Sisesta MarioBrosCoini allkiri</translation>
+        <source>Enter MyBroCoin signature</source>
+        <translation>Sisesta MyBroCoini allkiri</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1648,7 +1648,7 @@ Aadress: %4⏎</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The MarioBrosCoin developers</source>
+        <source>The MyBroCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2186,8 +2186,8 @@ Aadress: %4⏎</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>MarioBrosCoin version</source>
-        <translation>MarioBrosCoini versioon</translation>
+        <source>MyBroCoin version</source>
+        <translation>MyBroCoini versioon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2305,7 +2305,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MarioBrosCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;MyBroCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
@@ -2316,7 +2316,7 @@ rpcpassword=%s
 Kasutajanimi ning parool EI TOHI kattuda.
 Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
 Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;MarioBrosCoin Alert&quot; admin@foo.com
+nt: alertnotify=echo %%s | email -s &quot;MyBroCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ nt: alertnotify=echo %%s | email -s &quot;MarioBrosCoin Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. MarioBrosCoin is probably already running.</source>
-        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on MarioBrosCoin juba avatud.</translation>
+        <source>Cannot obtain a lock on data directory %s. MyBroCoin is probably already running.</source>
+        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on MyBroCoin juba avatud.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ nt: alertnotify=echo %%s | email -s &quot;MarioBrosCoin Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MarioBrosCoin will not work properly.</source>
-        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis MarioBrosCoin ei tööta korralikult</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MyBroCoin will not work properly.</source>
+        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis MyBroCoin ei tööta korralikult</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ nt: alertnotify=echo %%s | email -s &quot;MarioBrosCoin Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the MarioBrosCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valikud: (vaata MarioBrosCoini Wikist või SSL sätete juhendist)</translation>
+        <source>SSL options: (see the MyBroCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL valikud: (vaata MyBroCoini Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ nt: alertnotify=echo %%s | email -s &quot;MarioBrosCoin Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of MarioBrosCoin</source>
-        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab MarioBrosCoini uusimat versiooni</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of MyBroCoin</source>
+        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab MyBroCoini uusimat versiooni</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart MarioBrosCoin to complete</source>
-        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita MarioBrosCoin</translation>
+        <source>Wallet needed to be rewritten: restart MyBroCoin to complete</source>
+        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita MyBroCoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ nt: alertnotify=echo %%s | email -s &quot;MarioBrosCoin Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. MarioBrosCoin is probably already running.</source>
-        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. MarioBrosCoin juba töötab.</translation>
+        <source>Unable to bind to %s on this computer. MyBroCoin is probably already running.</source>
+        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. MyBroCoin juba töötab.</translation>
     </message>
     <message>
         <location line="+64"/>

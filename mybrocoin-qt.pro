@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = mariobroscoin-qt
-macx:TARGET = "MarioBrosCoin-Qt"
+TARGET = mybrocoin-qt
+macx:TARGET = "MyBroCoin-Qt"
 VERSION = 0.8.6.1
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
@@ -232,6 +232,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/ui_interface.h \
     src/qt/rpcconsole.h \
     src/scrypt.h \
+    src/qt/miningpage.h \
     src/version.h \
     src/netbase.h \
     src/clientversion.h \
@@ -240,6 +241,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/threadsafety.h \
     src/limitedmap.h \
     src/qt/macnotificationhandler.h \
+    src/qt/csplashscreen.h \
     src/qt/splashscreen.h
 
 SOURCES += src/qt/bitcoin.cpp \
@@ -309,8 +311,10 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/rpcconsole.cpp \
     src/scrypt.cpp \
     src/noui.cpp \
+    src/qt/miningpage.cpp \
     src/leveldb.cpp \
     src/txdb.cpp \
+    src/qt/csplashscreen.cpp \
     src/qt/splashscreen.cpp
 
 RESOURCES += src/qt/bitcoin.qrc
@@ -326,6 +330,7 @@ FORMS += src/qt/forms/sendcoinsdialog.ui \
     src/qt/forms/sendcoinsentry.ui \
     src/qt/forms/askpassphrasedialog.ui \
     src/qt/forms/rpcconsole.ui \
+    src/qt/forms/miningpage.ui \    
     src/qt/forms/optionsdialog.ui
 
 contains(USE_QRCODE, 1) {
@@ -340,7 +345,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = mariobroscoin-qt_test
+TARGET = mybrocoin-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
 }
@@ -440,7 +445,7 @@ macx:HEADERS += src/qt/macdockiconhandler.h src/qt/macnotificationhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm src/qt/macnotificationhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit -framework CoreServices
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/MarioBrosCoin.icns
+macx:ICON = src/qt/res/icons/MyBroCoin.icns
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread

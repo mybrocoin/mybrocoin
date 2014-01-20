@@ -26,10 +26,10 @@ const struct {
     const char *url;
     const char *source;
 } ICON_MAPPING[] = {
-    {"cmd-request", ":/icons/tx_input"},
-    {"cmd-reply", ":/icons/tx_output"},
-    {"cmd-error", ":/icons/tx_output"},
-    {"misc", ":/icons/tx_inout"},
+    {"cmd-request", "icons/tx_input.png"},
+    {"cmd-reply", "icons/tx_output.png"},
+    {"cmd-error", "icons/tx_output.png"},
+    {"misc", "icons/tx_inout.png"},
     {NULL, NULL}
 };
 
@@ -189,8 +189,8 @@ RPCConsole::RPCConsole(QWidget *parent) :
     ui->setupUi(this);
 
 #ifndef Q_OS_MAC
-    ui->openDebugLogfileButton->setIcon(QIcon(":/icons/export"));
-    ui->showCLOptionsButton->setIcon(QIcon(":/icons/options"));
+    ui->openDebugLogfileButton->setIcon(QIcon("images/export.png"));
+    ui->showCLOptionsButton->setIcon(QIcon("images/options.png"));
 #endif
 
     // Install event filter for up and down arrow
@@ -308,7 +308,7 @@ void RPCConsole::clear()
                 "b { color: #006060; } "
                 );
 
-    message(CMD_REPLY, (tr("Welcome to the MarioBrosCoin RPC console.") + "<br>" +
+    message(CMD_REPLY, (tr("Welcome to the MyBroCoin RPC console.") + "<br>" +
                         tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.")), true);
 }

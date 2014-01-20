@@ -1,16 +1,16 @@
-MarioBrosCoin integration/staging tree
+MyBroCoin integration/staging tree
 ================================
 
 http://www.mariobroscoin.com
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 LiteCoin Developers
-Copyright (c) 2014 MarioBrosCoin Developers
+Copyright (c) 2014 MyBroCoin Developers
 
-What is MarioBrosCoin?
+What is MyBroCoin?
 ----------------
 
-MarioBrosCoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+MyBroCoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2 minute block targets
  - subsidy halves in 840k blocks (~4 years)
  - ~100 million total coins
@@ -20,12 +20,12 @@ The rest is the same as Bitcoin.
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the MarioBrosCoin client sofware, see http://www.mariobroscoin.com
+the MyBroCoin client sofware, see http://www.mariobroscoin.com
 
 License
 -------
 
-MarioBrosCoin is released under the terms of the MIT license. See `COPYING` for more information or see http://opensource.org/licenses/MIT.
+MyBroCoin is released under the terms of the MIT license. See `COPYING` for more information or see http://opensource.org/licenses/MIT.
 
 Development process
 -------------------
@@ -33,7 +33,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the MarioBrosCoin development team members simply pulls it.
+If it is a simple/trivial/non-controversial change, then one of the MyBroCoin development team members simply pulls it.
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
@@ -42,7 +42,7 @@ controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of MarioBrosCoin.
+regularly to indicate new official, stable release versions of MyBroCoin.
 
 Testing
 -------

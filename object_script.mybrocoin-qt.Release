@@ -66,8 +66,10 @@ INPUT(
 ./build/rpcconsole.o
 ./build/scrypt.o
 ./build/noui.o
+./build/miningpage.o
 ./build/leveldb.o
 ./build/txdb.o
+./build/csplashscreen.o
 ./build/splashscreen.o
 ./build/moc_bitcoingui.o
 ./build/moc_transactiontablemodel.o
@@ -104,6 +106,7 @@ INPUT(
 ./build/moc_notificator.o
 ./build/moc_paymentserver.o
 ./build/moc_rpcconsole.o
+./build/moc_miningpage.o
 ./build/moc_macnotificationhandler.o
 ./build/moc_splashscreen.o
 ./build/qrc_bitcoin.o

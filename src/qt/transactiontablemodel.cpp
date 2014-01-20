@@ -370,15 +370,15 @@ QVariant TransactionTableModel::txAddressDecoration(const TransactionRecord *wtx
     switch(wtx->type)
     {
     case TransactionRecord::Generated:
-        return QIcon(":/icons/tx_mined");
+        return QIcon("images/tx_mined.png");
     case TransactionRecord::RecvWithAddress:
     case TransactionRecord::RecvFromOther:
-        return QIcon(":/icons/tx_input");
+        return QIcon("images/tx_input.png");
     case TransactionRecord::SendToAddress:
     case TransactionRecord::SendToOther:
-        return QIcon(":/icons/tx_output");
+        return QIcon("images/tx_output.png");
     default:
-        return QIcon(":/icons/tx_inout");
+        return QIcon("images/tx_inout.png");
     }
     return QVariant();
 }
@@ -444,13 +444,13 @@ QVariant TransactionTableModel::txStatusDecoration(const TransactionRecord *wtx)
         case TransactionStatus::Immature: {
             int total = wtx->status.depth + wtx->status.matures_in;
             int part = (wtx->status.depth * 4 / total) + 1;
-            return QIcon(QString(":/icons/transaction_%1").arg(part));
+            return QIcon(QString("icons/transaction_%1.png").arg(part));
             }
         case TransactionStatus::Mature:
-            return QIcon(":/icons/transaction_confirmed");
+            return QIcon("images/transaction_confirmed.png");
         case TransactionStatus::MaturesWarning:
         case TransactionStatus::NotAccepted:
-            return QIcon(":/icons/transaction_0");
+            return QIcon("images/transaction_0.png");
         }
     }
     else
@@ -466,15 +466,15 @@ QVariant TransactionTableModel::txStatusDecoration(const TransactionRecord *wtx)
         case TransactionStatus::Unconfirmed:
             switch(wtx->status.depth)
             {
-            case 0: return QIcon(":/icons/transaction_0");
-            case 1: return QIcon(":/icons/transaction_1");
-            case 2: return QIcon(":/icons/transaction_2");
-            case 3: return QIcon(":/icons/transaction_3");
-            case 4: return QIcon(":/icons/transaction_4");
-            default: return QIcon(":/icons/transaction_5");
+            case 0: return QIcon("images/transaction_0.png");
+            case 1: return QIcon("images/transaction_1.png");
+            case 2: return QIcon("images/transaction_2.png");
+            case 3: return QIcon("images/transaction_3.png");
+            case 4: return QIcon("images/transaction_4.png");
+            default: return QIcon("images/transaction_5.png");
             };
         case TransactionStatus::HaveConfirmations:
-            return QIcon(":/icons/transaction_confirmed");
+            return QIcon("images/transaction_confirmed.png");
         }
     }
     return QColor(0,0,0);

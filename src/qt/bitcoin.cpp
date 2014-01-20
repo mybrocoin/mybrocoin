@@ -94,7 +94,7 @@ static void InitMessage(const std::string &message)
 {
     if(splashref)
     {
-        splashref->showMessage(QString::fromStdString(message), Qt::AlignBottom|Qt::AlignHCenter, QColor(255,255,255));
+        splashref->showMessage(QString::fromStdString(message), Qt::AlignVCenter|Qt::AlignHCenter, QColor(0,0,0));
         qApp->processEvents();
     }
     printf("init message: %s\n", message.c_str());
@@ -113,7 +113,7 @@ static std::string Translate(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. MarioBrosCoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. MyBroCoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
@@ -156,7 +156,7 @@ int main(int argc, char *argv[])
     {
         // This message can not be translated, as translation is not initialized yet
         // (which not yet possible because lang=XX can be overridden in bitcoin.conf in the data directory)
-        QMessageBox::critical(0, "MarioBrosCoin",
+        QMessageBox::critical(0, "MyBroCoin",
                               QString("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return 1;
     }
@@ -164,12 +164,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    QApplication::setOrganizationName("MarioBrosCoin");
-    QApplication::setOrganizationDomain("mariobroscoin.org");
+    QApplication::setOrganizationName("MyBroCoin");
+    QApplication::setOrganizationDomain("mybrocoin.org");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        QApplication::setApplicationName("MarioBrosCoin-Qt-testnet");
+        QApplication::setApplicationName("MyBroCoin-Qt-testnet");
     else
-        QApplication::setApplicationName("MarioBrosCoin-Qt");
+        QApplication::setApplicationName("MyBroCoin-Qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;
@@ -219,12 +219,12 @@ int main(int argc, char *argv[])
 #ifdef Q_OS_MAC
     // on mac, also change the icon now because it would look strange to have a testnet splash (green) and a std app icon (orange)
     if(GetBoolArg("-testnet")) {
-        MacDockIconHandler::instance()->setIcon(QIcon(":icons/bitcoin_testnet"));
-    }
+        MacDockIconHandler::instance()->setIcon(QIcon("icons/bitcoin_testnet.png"));
+    }                               
 #endif
 
 
-    QPixmap aSplashImage(":/images/splash");
+    QPixmap aSplashImage("images/splash.png");
      
     // SplashScreen splash(QPixmap(), 0);
     CSplashScreen splash(aSplashImage);

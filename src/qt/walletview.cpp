@@ -48,7 +48,7 @@ WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
     QPushButton *exportButton = new QPushButton(tr("&Export"), this);
     exportButton->setToolTip(tr("Export the data in the current tab to a file"));
 #ifndef Q_OS_MAC // Icons on push buttons are very uncommon on Mac
-    exportButton->setIcon(QIcon(":/icons/export"));
+    exportButton->setIcon(QIcon("images/export.png"));
 #endif
     hbox_buttons->addStretch();
     hbox_buttons->addWidget(exportButton);
